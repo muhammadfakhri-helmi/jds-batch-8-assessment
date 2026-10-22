@@ -40,3 +40,10 @@ Data QA lokal diarsipkan ke `private/qa/` agar tidak muncul dalam daftar kandida
 - 12 automated tests lulus, termasuk bobot setiap kriteria, perbedaan skor versi 1/2, dan dekripsi jawaban lama dengan nama posisi lama.
 - Typecheck, production build, dan audit private key lulus. Key produksi tidak diubah.
 - Contoh CLI 5,4,3,4,5 menghasilkan 84 pada rubrik baru; 85 pada rubrik External lama. Hasil uji 85 pada bagian laporan awal adalah pengujian versi 1.
+
+## Pembaruan tanggung jawab bersama dan KPI — versi 3
+
+- Q9 diubah dari dropdown jabatan menjadi esai kontribusi terhadap tanggung jawab bersama Internal/External.
+- Internal Q14 meminta rencana mencapai target ketua secara rinci. External menambahkan target orang/profil dan perusahaan.
+- Reward titip nama dijelaskan di pengantar dan kolom rewardNominee opsional di akhir asesmen; ikut terenkripsi, review dan CSV.
+- 14 tests lulus, termasuk field sasaran wajib, nama reward opsional/terenkripsi/CSV, dan kompatibilitas jawaban v1/v2. Typecheck, build, dan audit key lulus.

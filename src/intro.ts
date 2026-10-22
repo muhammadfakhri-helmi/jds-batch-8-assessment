@@ -24,11 +24,11 @@ export function intro(){return `
  <div class="team-grid"><article class="card"><span class="pill">INTERNAL · 5 ORANG</span><h3>Mengelola proses dan data.</h3><p>Menyiapkan perencanaan, sistem, administrasi, materi promosi, dan pengalaman kandidat sepanjang rekrutmen.</p></article><article class="card"><span class="pill">EKSTERNAL · FLEKSIBEL</span><h3>Menjangkau dan mengajak kandidat.</h3><p>Sourcing kandidat, promosi, networking, dan konversi pendaftaran. Jumlah anggota menyesuaikan kualitas calon panitia, kapasitas kerja, serta kebutuhan rekrutmen—ditetapkan setelah asesmen.</p></article></div>
 </section>
 <section class="card planning-section" aria-labelledby="roles-heading">
- <span class="eyebrow">03 / RUANG KONTRIBUSI</span><h2 id="roles-heading">Lima posisi utama tim internal.</h2>
- <p>Kami mencari lima orang dengan kemampuan yang saling melengkapi untuk menjalankan fungsi berikut.</p>
+ <span class="eyebrow">03 / RUANG KONTRIBUSI</span><h2 id="roles-heading">Lima tanggung jawab bersama tim internal.</h2>
+ <p>Lima anggota Internal bersama-sama menjalankan seluruh fungsi berikut. Pembagian pekerjaan dikoordinasikan dalam tim; calon panitia tidak diminta memilih satu jabatan.</p>
  <div class="position-list">${internalPositions.map(([title,skills],i)=>`<article><span class="position-number">0${i+1}</span><div><h3>${title}</h3><p>${skills}.</p></div></article>`).join('')}</div>
  <h3 class="external-heading">Fungsi tim eksternal</h3><div class="external-functions">${externalPositions.map(role=>`<span>${role}</span>`).join('')}</div>
- <p class="micro">Pembagian anggota eksternal mengikuti hasil asesmen. Target kontribusi tiap anggota ditetapkan berdasarkan kapasitas dan konversi pendaftaran.</p>
+ <p class="micro">Seluruh anggota External berbagi tanggung jawab sourcing, promosi, networking, outreach, follow-up, dan konversi pendaftaran. Setiap anggota menyusun sasaran orang/profil, perusahaan, dan KPI pendaftaran sesuai kapasitasnya.</p>
 </section>
 <section class="planning-section" aria-labelledby="rubric-heading">
  <span class="eyebrow">04 / CARA KAMI MENILAI</span><h2 id="rubric-heading">Komitmen dan kemampuan yang bisa dibuktikan.</h2>
@@ -40,5 +40,6 @@ export function intro(){return `
  <p>Asesmen ini membantu memetakan calon panitia, memilih lima anggota internal yang paling sesuai, menentukan kebutuhan eksternal, dan menetapkan target kerja sebelum open recruitment.</p>
  <div class="timeline">${timeline.map(([date,label])=>`<div><small>${date}</small><b>${label}</b></div>`).join('')}</div>
 </section>
-<section class="privacy"><h3>Privasi dan cara pengumpulan</h3><p>Jawaban hanya berada di memori tab ini hingga diunduh sebagai file terenkripsi. Jangan tutup atau muat ulang halaman selama mengisi. Setelah selesai, kirim file melalui kanal resmi panitia. Hanya pemilik private key yang dapat membukanya.</p></section>
+<section class="card planning-section"><span class="eyebrow">06 / REWARD PENCAPAIAN KPI</span><h2>Kontribusi yang mencapai target mendapat apresiasi.</h2><p>Setiap anggota panitia yang memenuhi KPI berhak mengajukan <strong>titip nama</strong> sebagai reward. Pada akhir asesmen, Anda dapat menuliskan nama yang direncanakan untuk jatah Anda. Jika belum ada, kolom tersebut boleh dikosongkan.</p></section><section class="privacy"><h3>Privasi dan cara pengumpulan</h3><p>Jawaban hanya berada di memori tab ini hingga diunduh sebagai file terenkripsi. Jangan tutup atau muat ulang halaman selama mengisi. Setelah selesai, kirim file melalui kanal resmi panitia. Hanya pemilik private key yang dapat membukanya.</p></section>
 <section class="assessment-start" aria-labelledby="start-heading"><span class="eyebrow">INFORMASI SUDAH DIBACA? LANGKAH BERIKUTNYA:</span><h2 id="start-heading">Ceritakan kemampuan dan komitmen Anda.</h2><p>Isi pengalaman, pilih divisi yang diminati, lalu kerjakan studi kasus. Jawab dengan jujur, konkret, dan sesuai kemampuan Anda.</p><button id="start">Mulai Asesmen <span aria-hidden="true">↗</span></button><p class="micro">20–30 menit · Tanpa akun · Jawaban terenkripsi</p></section>`;}
+

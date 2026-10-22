@@ -14,7 +14,7 @@ Ini kerangka pembanding, bukan jawaban wajib atau satu-satunya jawaban benar. Ni
 6. **Waktu:** jam realistis, hari yang tersedia, benturan jadwal November–Maret, dan rencana mitigasi. Jam lebih banyak tidak otomatis berarti kandidat lebih baik.
 7. **Divisi:** Internal untuk pengelolaan strategi/sistem; External untuk outreach; Flexible memilih jalur studi kasus sebagai dasar rubrik.
 8. **Alasan:** hubungkan kemampuan terbukti dengan kebutuhan posisi.
-9. **Tanggung jawab:** pilih satu fungsi utama dan jelaskan kesesuaiannya melalui jawaban terkait.
+9. **Tanggung jawab bersama:** jelaskan tindakan pribadi, output, koordinasi dan akuntabilitas dalam seluruh tanggung jawab tim. Internal: perencanaan, data/CRM, administrasi, creative dan komunikasi. External: sourcing, promosi, networking, outreach, follow-up dan konversi pendaftaran. Tidak memilih satu jabatan.
 10. **Komitmen:** contoh Internal “dashboard diperbarui setiap Jumat dan error data ditindaklanjuti dalam dua hari”; External “mengusulkan target pendaftaran sesuai kapasitas pribadi dan asumsi konversi yang ditinjau mingguan”. Jangan menjadikan asumsi sebagai jaminan.
 
 ## Q11–Q13: bersama
@@ -61,3 +61,12 @@ Ini kerangka pembanding, bukan jawaban wajib atau satu-satunya jawaban benar. Ni
 
 Gunakan REVIEWER_GUIDE.md untuk bobot dan skala 0–5. Contoh di atas bukan pengganti penilaian manusia atau verifikasi fakta kandidat.
 
+
+
+## Tambahan versi 3 — sasaran KPI dan reward
+
+Internal Q14 harus menjelaskan cara mencapai 300 pendaftar (200 offline, 100 online), target segmen, langkah kerja, kontribusi pribadi, koordinasi, KPI mingguan dan tindakan perbaikan. Fungsi internal adalah tanggung jawab bersama.
+
+External menyebut siapa orang/profil yang dituju dan nama perusahaan target, alasan relevansi, peran profesional, estimasi kontribusi pendaftar, dan rencana pendekatan. Jika belum memiliki nama orang, profil sasaran konkret diperbolehkan. Jangan mengarang relasi atau kontak.
+
+Setiap anggota yang memenuhi KPI berhak mengajukan titip nama sebagai reward. Nama rencana untuk jatah tersebut opsional, boleh kosong, dan tidak memengaruhi skor kompetensi. Tidak meminta data kontak pribadi. Pengajuan nama tidak dicatat sebagai keputusan diterima otomatis oleh aplikasi.

@@ -1,6 +1,6 @@
 # Bank soal JDS Batch 8
 
-Setiap kandidat mengerjakan 22 soal utama, ditambah detail jadwal dan pertanyaan kondisional. Flexible memilih satu jalur studi kasus.
+Versi 3: 22 soal utama, detail jadwal, pertanyaan kondisional, dua pertanyaan sasaran External, dan nama reward opsional. Flexible memilih satu jalur studi kasus. Q9 adalah esai kontribusi terhadap tanggung jawab bersama, bukan pilihan jabatan.
 
 ## Latar belakang
 
@@ -50,7 +50,7 @@ Berapa waktu yang dapat Anda alokasikan?
 
 Jelaskan keterbatasan selama November 2026–Maret 2027. Tulis “Tidak ada” jika tidak ada.
 
-## Pilihan divisi
+## Pilihan divisi — Internal
 
 ### Q7. Pilihan divisi
 
@@ -64,9 +64,31 @@ Pilih tim tempat Anda ingin berkontribusi.
 
 Mengapa divisi tersebut sesuai dengan kemampuan dan minat Anda?
 
-### Q9. Tanggung jawab pilihan
+### Q9. Kontribusi dalam tanggung jawab bersama
 
-Pilih posisi utama.
+Jika bergabung di Internal, Anda ikut bertanggung jawab atas perencanaan, data/CRM, screening dan administrasi, creative/branding, serta komunikasi kandidat. Apa yang akan Anda kerjakan secara konkret, bagaimana bekerja bersama anggota lain, dan output apa yang Anda janjikan? Ini tanggung jawab bersama, bukan pilihan satu jabatan.
+
+### Q10. Komitmen pribadi
+
+Tanggung jawab dan target terukur apa yang bersedia Anda ambil?
+
+## Pilihan divisi — External
+
+### Q7. Pilihan divisi
+
+Pilih tim tempat Anda ingin berkontribusi.
+
+- Internal
+- External
+- Flexible
+
+### Q8. Alasan memilih divisi
+
+Mengapa divisi tersebut sesuai dengan kemampuan dan minat Anda?
+
+### Q9. Kontribusi dalam tanggung jawab bersama
+
+Jika bergabung di External, Anda ikut bertanggung jawab atas sourcing, promosi, networking, outreach perusahaan/komunitas, follow-up, dan konversi pendaftaran. Apa yang akan Anda lakukan, bagaimana berkoordinasi dengan tim, dan hasil terukur apa yang siap Anda pertanggungjawabkan? Ini tanggung jawab bersama, bukan pilihan satu jabatan.
 
 ### Q10. Komitmen pribadi
 
@@ -86,11 +108,11 @@ Dua minggu sebelum penutupan: offline 120/200, online 35/100, fresh graduate 8/2
 
 Seorang anggota tidak menyelesaikan tugas selama tujuh hari dan menghambat progres. Bagaimana Anda menanganinya secara profesional?
 
-## Studi kasus Internal
+## Studi kasus divisi — Internal
 
 ### Q14. Perencanaan strategis
 
-Susun rencana tim Internal lima orang untuk mencapai 300 pendaftar. Sebutkan tiga prioritas, pembagian pekerjaan, dan output sebelum 16 Desember 2026.
+Bagaimana tim Internal lima orang dapat mencapai target Ketua: 300 pendaftar (200 offline, 100 online), termasuk 280 experienced professionals dan 20 fresh graduates; minimum 10 operator/geothermal, 10 senior service company (5+ tahun), serta 20 kontributor networking yang dapat tumpang tindih? Jelaskan strategi, tindakan pribadi Anda, koordinasi tanggung jawab bersama, KPI mingguan, tenggat, dukungan untuk External, dan perbaikan jika progres tertinggal. Sebutkan output yang harus siap sebelum 16 Desember 2026.
 
 ### Q15. Data & dashboard
 
@@ -108,11 +130,19 @@ Instagram: 1.000 kunjungan, 20 pendaftaran. LinkedIn: 300 kunjungan, 30 pendafta
 
 Usulkan satu inovasi sistem, workflow, dashboard, atau metode kerja. Jelaskan implementasi dan pengukuran manfaat.
 
-## Studi kasus External
+## Studi kasus divisi — External
 
 ### Q14. Akuisisi kandidat
 
 Dengan target program 300 pendaftar dan kapasitas tim eksternal fleksibel, usulkan target kontribusi pendaftaran yang realistis untuk diri Anda. Jelaskan sumber kandidat, estimasi kontak, asumsi conversion rate kontak ke pendaftaran, aktivitas mingguan, dan follow-up. Target ditetapkan berdasarkan kemampuan, bukan kuota tetap per anggota.
+
+### TARGETPEOPLE. Siapa target kandidat dalam KPI Anda?
+
+Sebutkan orang atau profil profesional yang akan Anda ajak mendaftar JDS Batch 8, peran/pengalaman mereka, alasan relevan, serta cara Anda menjangkaunya. Jika belum memiliki nama, tuliskan profil sasaran yang konkret; tidak perlu nomor telepon atau data kontak pribadi.
+
+### TARGETCOMPANIES. Perusahaan apa yang Anda targetkan?
+
+Sebutkan nama perusahaan yang akan menjadi sasaran outreach, kategori perusahaan (operator migas/geothermal/service company/lainnya), posisi profesional yang dituju, estimasi jumlah pendaftar dari setiap perusahaan, dan rencana pendekatannya.
 
 ### Q15. Pendekatan senior engineer
 
@@ -146,11 +176,15 @@ Apa motivasi terbesar mengikuti kepanitiaan Rekrutmen JDS Batch 8?
 
 ### Q22. Fleksibilitas penempatan
 
-Jika tidak memperoleh posisi pilihan pertama:
+Jika diarahkan ke divisi yang berbeda dari pilihan awal:
 
 - Willing
 - Willing with considerations
 - Not willing
 
+### REWARDNOMINEE. Rencana nama untuk jatah reward KPI
 
-Persetujuan pemrosesan informasi wajib. Other meminta detail keahlian; Willing with considerations meminta pertimbangan; tanggung jawab Q9 mengikuti jalur studi kasus.
+Setiap anggota panitia yang memenuhi KPI berhak mengajukan titip nama sebagai reward. Siapa nama yang Anda rencanakan untuk jatah Anda? Kolom ini opsional: boleh dikosongkan jika belum ada. Cukup tulis nama, tanpa data kontak pribadi.
+
+
+Nama reward boleh dikosongkan. Persetujuan pemrosesan informasi wajib. Other meminta detail keahlian; Willing with considerations meminta pertimbangan.

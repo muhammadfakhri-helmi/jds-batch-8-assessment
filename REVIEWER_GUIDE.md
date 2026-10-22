@@ -56,3 +56,7 @@ Terapkan skala ini pada bukti per kriteria di bawah, bukan panjang jawaban atau 
 | Inisiatif & problem solving | Diagnosis, tindakan, eskalasi, eksperimen Q12/Q13/Q18/Q20 | 3: solusi logis; 5: akar sebab, alternatif, mitigasi dan pembelajaran terukur |
 
 CSV UTF-8 BOM berada di `private/assessment-results.csv`, mencakup semua jawaban, preferensi, jalur, skor, catatan, dan status. Buka di Excel melalui Data → From Text/CSV bila separator tidak dikenali otomatis. Simpan dan bagikan hanya melalui kanal internal yang sesuai.
+
+## Formulir versi 3
+
+Q9 sekarang esai tanggung jawab bersama. Internal Q14 mencakup cara mencapai seluruh target ketua. External memiliki targetPeople dan targetCompanies sebagai pertanyaan wajib. rewardNominee bersifat opsional, berlaku untuk seluruh panitia yang memenuhi KPI, dan boleh kosong. Ketiga field masuk review, payload terenkripsi, tampilan reviewer dan CSV; nama reward bukan kriteria skor. assessmentVersion 3 tetap menggunakan rubricVersion 2. Jawaban versi 1/2 tetap memakai definisi pertanyaan lama saat ditampilkan dan divalidasi.

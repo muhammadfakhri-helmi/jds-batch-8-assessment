@@ -1,6 +1,7 @@
 import {readFileSync,writeFileSync,existsSync,mkdirSync,renameSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {decryptMarkdown,rubrics,legacyRubrics,recordRubricVersion,levels,weighted,recommendation,csv} from './reviewer-lib.mjs';
+import {questions as legacyQuestions} from '../src/questions-v2.js';
 import {caseTeam,questions} from '../src/questions.js';
 const [cmd,...args]=process.argv.slice(2);const store='private/reviews.json';
 function load(){return existsSync(store)?JSON.parse(readFileSync(store,'utf8')):[];}
@@ -17,7 +18,7 @@ try{
  }else if(cmd==='show'){
   const r=load().find(r=>r.submissionId===args[0]);if(!r)throw Error('Submission tidak ditemukan.');
   console.log(`ID: ${r.submissionId}\nStatus: ${r.status}\nCatatan: ${r.notes}`);
-  for(let i=0;i<5;i++)for(const q of questions(i,r.answers))console.log(`\n${q.id}. ${q.title}\n${q.prompt}\nJawaban: ${Array.isArray(r.answers[q.id])?r.answers[q.id].join(', '):r.answers[q.id]}`);
+  for(let i=0;i<5;i++)for(const q of (r.answers.assessmentVersion>=3?questions:legacyQuestions)(i,r.answers))console.log(`\n${q.id}. ${q.title}\n${q.prompt}\nJawaban: ${Array.isArray(r.answers[q.id])?r.answers[q.id].join(', '):r.answers[q.id]}`);
   console.log(`Rubric version: ${recordRubricVersion(r)}`); console.table((recordRubricVersion(r)===1?legacyRubrics:rubrics)[caseTeam(r.answers)].map(([criterion,weight],i)=>({criterion,weight,score:r.scores?.[i]??'Belum dinilai'})));console.log(levels.join('\n'));
  }else if(cmd==='score'){
   const [id,values,status='Pending',notes='']=args;const rows=load(),r=rows.find(r=>r.submissionId===id);if(!r)throw Error('Submission tidak ditemukan.');
@@ -27,4 +28,5 @@ try{
   const target=resolve(args[0]||'private/assessment-results.csv');if(!target.toLowerCase().endsWith('.csv'))throw Error('Output harus .csv.');if(!target.startsWith(resolve('private')+'\\')&&!target.startsWith(resolve('private')+'/'))throw Error('Ekspor hanya di folder private/.');mkdirSync('private',{recursive:true,mode:0o700});writeFileSync(target,csv(load()),{mode:0o600});console.log('CSV tersimpan: '+target);
  }else console.log('Reviewer lokal — jalankan dari root proyek\n npm run decrypt -- file1.md file2.md\n npm run review -- list [Internal|External|Flexible]\n npm run review -- show ID\n npm run review -- score ID "4,4,3,4,5" Interview "Catatan reviewer"\n npm run export-csv\nData pribadi hanya disimpan di private/. Jangan bagikan layar atau output terminal saat menampilkan kandidat.');
 }catch(e){console.error(e.message);process.exitCode=1;}
+
 

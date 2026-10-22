@@ -1,0 +1,4 @@
+import {writeFileSync} from 'node:fs';
+import {common,cases,sections} from '../src/questions.js';
+const format=q=>`### ${q.id.toUpperCase()}. ${q.title}\n\n${q.prompt}\n\n${q.options.length?q.options.map(o=>'- '+o).join('\n')+'\n\n':''}`;
+writeFileSync('docs/QUESTION_BANK.md','# Bank soal JDS Batch 8\n\nSetiap kandidat mengerjakan 22 soal utama, ditambah detail jadwal dan pertanyaan kondisional. Flexible memilih satu jalur studi kasus.\n\n'+common.map((s,i)=>i===3?Object.entries(cases).map(([team,qs])=>'## Studi kasus '+team+'\n\n'+qs.map(format).join('')).join(''):'## '+sections[i]+'\n\n'+s.map(format).join('')).join('')+'\nPersetujuan pemrosesan informasi wajib. Other meminta detail keahlian; Willing with considerations meminta pertimbangan; tanggung jawab Q9 mengikuti jalur studi kasus.\n');

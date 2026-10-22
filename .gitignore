@@ -1,0 +1,8 @@
+node_modules/
+dist/
+private/
+*.pem
+!public/public-key.pem
+*.csv
+*.decrypted.json
+.env*

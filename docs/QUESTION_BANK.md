@@ -76,11 +76,11 @@ Tanggung jawab dan target terukur apa yang bersedia Anda ambil?
 
 ### Q11. Strategi rekrutmen
 
-Target 300 peserta: 200 offline, 100 online, termasuk 20 fresh graduate. Apa tiga tantangan terbesar? Bagaimana menarik experienced engineer? Dengan sumber daya terbatas, tiga strategi promosi apa yang diprioritaskan?
+Target 300 kandidat yang mendaftar: 200 offline, 100 online, termasuk 20 fresh graduate. Ini target pendaftaran, bukan kuota peserta diterima. Apa tiga tantangan terbesar? Bagaimana menarik experienced engineer? Dengan sumber daya terbatas, tiga strategi promosi apa yang diprioritaskan?
 
 ### Q12. Krisis rekrutmen
 
-Dua minggu sebelum penutupan: offline 120/200, online 35/100, fresh graduate 8/20. Susun pemulihan tujuh hari: prioritas, aktivitas, PIC, dan indikator keberhasilan. Fresh graduate merupakan bagian dari total peserta, bukan tambahan.
+Dua minggu sebelum penutupan: offline 120/200, online 35/100, fresh graduate 8/20. Susun pemulihan tujuh hari: prioritas, aktivitas, PIC, dan indikator keberhasilan. Fresh graduate merupakan bagian dari total pendaftar, bukan tambahan.
 
 ### Q13. Akuntabilitas tim
 
@@ -90,7 +90,7 @@ Seorang anggota tidak menyelesaikan tugas selama tujuh hari dan menghambat progr
 
 ### Q14. Perencanaan strategis
 
-Susun rencana tim Internal lima orang untuk mendukung 300 peserta. Sebutkan tiga prioritas, pembagian pekerjaan, dan output sebelum 16 Desember 2026.
+Susun rencana tim Internal lima orang untuk mencapai 300 pendaftar. Sebutkan tiga prioritas, pembagian pekerjaan, dan output sebelum 16 Desember 2026.
 
 ### Q15. Data & dashboard
 
@@ -112,7 +112,7 @@ Usulkan satu inovasi sistem, workflow, dashboard, atau metode kerja. Jelaskan im
 
 ### Q14. Akuisisi kandidat
 
-Target kontribusi 20 peserta terkonfirmasi: sumber kandidat, estimasi kontak, asumsi conversion rate, aktivitas mingguan, dan follow-up. Angka ini target perencanaan, bukan jaminan.
+Dengan target program 300 pendaftar dan kapasitas tim eksternal fleksibel, usulkan target kontribusi pendaftaran yang realistis untuk diri Anda. Jelaskan sumber kandidat, estimasi kontak, asumsi conversion rate kontak ke pendaftaran, aktivitas mingguan, dan follow-up. Target ditetapkan berdasarkan kemampuan, bukan kuota tetap per anggota.
 
 ### Q15. Pendekatan senior engineer
 
@@ -128,7 +128,7 @@ Bagaimana mengajak kandidat yang dapat memperluas jaringan industri dan peluang 
 
 ### Q18. Follow-up kandidat
 
-Dari 40 kontak: 10 interested, 15 no response, 10 rejected, 5 considering. Susun follow-up untuk meningkatkan konfirmasi tanpa pesan berulang yang mengganggu.
+Dari 40 kontak: 10 interested, 15 no response, 10 rejected, 5 considering. Susun follow-up untuk meningkatkan pendaftaran valid tanpa pesan berulang yang mengganggu.
 
 ## Komitmen akhir
 

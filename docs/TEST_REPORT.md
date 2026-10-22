@@ -29,3 +29,14 @@ Data QA lokal diarsipkan ke `private/qa/` agar tidak muncul dalam daftar kandida
 - CSV diverifikasi melalui parsing/string tests dan ekspor CLI, belum dibuka melalui Microsoft Excel desktop.
 - Belum dilakukan audit keamanan independen atau pengujian pembaca layar menyeluruh.
 - Uji resize pertama mengalami gangguan sinkronisasi browser; pengujian visual berhasil dilanjutkan pada tab produksi baru.
+
+## Pembaruan strategi dan halaman pengantar — 22 Oktober 2026
+
+- Target diperjelas menjadi 300 kandidat yang mendaftar (200 offline / 100 online).
+- Internal 5 orang; eksternal fleksibel; posisi dan rubrik 30/20/20/20/10 diperbarui.
+- Tombol Mulai Asesmen hanya satu dan berada di section terakhir setelah target, struktur, posisi, rubrik, timeline, dan privasi. Diverifikasi dari DOM browser.
+- Klik tombol berhasil membuka tahap Latar belakang.
+- Desktop 1280 px dan mobile 390 px tidak memiliki overflow horizontal (lebar konten 1265 dan 375 px).
+- 12 automated tests lulus, termasuk bobot setiap kriteria, perbedaan skor versi 1/2, dan dekripsi jawaban lama dengan nama posisi lama.
+- Typecheck, production build, dan audit private key lulus. Key produksi tidak diubah.
+- Contoh CLI 5,4,3,4,5 menghasilkan 84 pada rubrik baru; 85 pada rubrik External lama. Hasil uji 85 pada bagian laporan awal adalah pengujian versi 1.

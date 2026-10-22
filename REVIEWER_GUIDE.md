@@ -14,17 +14,23 @@ npm run review -- score SUBMISSION_ID "4,4,3,4,5" Interview "Bukti kontribusi ku
 npm run export-csv
 ```
 
-Impor menyimpan plaintext di `private/reviews.json`. Submission ID duplikat dilewati dan tidak menimpa skor/catatan. Batch tetap mengimpor file valid meskipun satu file gagal; exit code nonzero menandakan sebagian gagal. `show` menampilkan profil, soal, jawaban, rubrik, skor, status, dan catatan. Filter `list` menerima Internal, External, Flexible berdasarkan preferensi. Untuk Flexible, rubrik memakai jalur studi kasus terpilih.
+Impor menyimpan plaintext di `private/reviews.json`. Submission ID duplikat dilewati dan tidak menimpa skor/catatan. Batch tetap mengimpor file valid meskipun satu file gagal; exit code nonzero menandakan sebagian gagal. `show` menampilkan profil, soal, jawaban, rubrik, skor, status, dan catatan. Filter `list` menerima Internal, External, Flexible berdasarkan preferensi. Rubrik versi 2 sama untuk semua divisi.
+
+Perubahan strategi 22 Oktober 2026: target 300 **pendaftar**, 200 offline dan 100 online, bukan kuota peserta diterima. Internal lima orang, eksternal fleksibel sesuai hasil asesmen. Jumlah kontak dan target kontribusi individu mengikuti kapasitas dan conversion rate.
 
 Lima nilai 0–5 dimasukkan sesuai urutan berikut:
 
-| Internal | Bobot | External | Bobot |
-|---|---:|---|---:|
-| Strategic Thinking |25%|Sourcing & Networking Strategy|30%|
-| Analytical & Technical Skills |25%|Communication & Persuasion|25%|
-| Execution Planning |20%|Execution Planning|20%|
-| Problem Solving |15%|Problem Solving|10%|
-| Commitment |15%|Commitment|15%|
+| Kriteria versi 2 — semua divisi | Bobot |
+|---|---:|
+| Komitmen & waktu |30%|
+| Kemampuan komunikasi |20%|
+| Networking / relasi |20%|
+| Kemampuan teknis / administrasi |20%|
+| Inisiatif & problem solving |10%|
+
+Contoh skor `5,4,3,4,5` menghasilkan **84/100**. Penempatan internal mengutamakan kekuatan analisis, administrasi, dan sistem; eksternal mengutamakan komunikasi serta outreach profesional. Keputusan akhir tetap pada ketua.
+
+Kompatibilitas: jawaban lama tetap dapat diimpor, termasuk nama posisi lama. Skor tersimpan tanpa versi diperlakukan sebagai rubrik versi 1 sehingga tidak berubah diam-diam. `show`, `list`, dan CSV mempertahankan perhitungan lama. Menjalankan `score` berarti reviewer memberi **lima nilai baru dalam urutan versi 2**, lalu rekaman diberi `rubricVersion: 2`. Jangan menyalin urutan skor lama begitu saja. CSV menyertakan kolom versi rubrik.
 
 Skor = jumlah `(nilai / 5) × bobot`. Belum dinilai berbeda dari nilai nol. Nilai desimal diperbolehkan. Rentang rekomendasi: ≥85 Strong Candidate; ≥75 Recommended; ≥65 Consider / Interview; <65 Further Evaluation. Rekomendasi bukan keputusan seleksi otomatis.
 
@@ -43,12 +49,10 @@ Terapkan skala ini pada bukti per kriteria di bawah, bukan panjang jawaban atau 
 
 | Kriteria | Bukti yang dinilai | Pembeda nilai 3 dengan 5 |
 |---|---|---|
-| Strategic Thinking | Segmentasi, target, prioritas Q11/Q14/Q16 | 3: strategi masuk akal; 5: ada trade-off sumber daya dan skenario perubahan target |
-| Analytical & Technical | Struktur data, deduplikasi, privasi, konversi Q15/Q17 | 3: hitungan benar dan data relevan; 5: menguji kualitas data, denominator, biaya, dan bias |
-| Sourcing & Networking | Sumber kontak relevan, funnel, etika Q14/Q16/Q17 | 3: sumber dan target jelas; 5: funnel terukur, asumsi tervalidasi dan alternatif etis |
-| Communication & Persuasion | Pesan relevan, manfaat terverifikasi, consent Q15/Q18 External | 3: pesan profesional; 5: sangat kontekstual, mendengar keberatan, follow-up berbatas |
-| Execution Planning | PIC, jadwal, deliverable, dependensi Q12/Q14 | 3: langkah dapat dijalankan; 5: kapasitas realistis, checkpoint, dan rencana cadangan |
-| Problem Solving | Diagnosis, eskalasi, eksperimen Q12/Q13/Q20 | 3: penyelesaian logis; 5: akar sebab, mitigasi, serta pembelajaran yang dapat diuji |
-| Commitment | Jadwal, tanggung jawab, motivasi Q6/Q10/Q19–22 | 3: komitmen konsisten; 5: bukti ownership dan mitigasi konflik jadwal yang kuat |
+| Komitmen & waktu | Jadwal, tanggung jawab, motivasi Q6/Q10/Q19–22 | 3: komitmen realistis; 5: bukti ownership dan mitigasi konflik jadwal |
+| Kemampuan komunikasi | Kejelasan jawaban, koordinasi Q3/Q13, pesan/follow-up External | 3: jelas dan profesional; 5: kontekstual, mendengar keberatan, follow-up berbatas |
+| Networking / relasi | Kolaborasi Q3/Q11, sumber outreach dan etika External | 3: hubungan relevan dan sukarela; 5: bukti membangun jaringan, funnel terukur, etika kuat |
+| Kemampuan teknis / administrasi | Bukti skill Q4/Q5, data, tracking, rencana dan ketelitian | 3: mampu menjalankan tugas; 5: kualitas data, privasi, dokumentasi dan evaluasi kuat |
+| Inisiatif & problem solving | Diagnosis, tindakan, eskalasi, eksperimen Q12/Q13/Q18/Q20 | 3: solusi logis; 5: akar sebab, alternatif, mitigasi dan pembelajaran terukur |
 
 CSV UTF-8 BOM berada di `private/assessment-results.csv`, mencakup semua jawaban, preferensi, jalur, skor, catatan, dan status. Buka di Excel melalui Data → From Text/CSV bila separator tidak dikenali otomatis. Simpan dan bagikan hanya melalui kanal internal yang sesuai.

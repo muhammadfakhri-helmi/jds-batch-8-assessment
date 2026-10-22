@@ -46,3 +46,6 @@ Lihat [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md) untuk impor file, membaca jawaban, 
 - `docs/`: bank soal, panduan jawaban, laporan pengujian.
 
 Lihat [DEPLOYMENT.md](DEPLOYMENT.md) dan [SECURITY.md](SECURITY.md). Identitas JDS pada UI adalah teks sementara, bukan logo resmi.
+
+## Strategi terkini (22 Oktober 2026)
+Target 300 pendaftar: 200 offline (66,7%) dan 100 online (33,3%), bukan kuota peserta diterima. Internal 5 orang dan eksternal fleksibel. Halaman awal menyampaikan target, struktur, posisi, rubrik 30/20/20/20/10 dan timeline sebelum tombol Mulai Asesmen di bawah. docs/PROJECT_BRIEF.md merupakan arsip brief awal; strategi terkini menggantikan target kapasitas dan rubrik lama.
